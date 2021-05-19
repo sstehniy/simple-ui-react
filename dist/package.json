@@ -1,0 +1,20 @@
+{
+  "name": "simple-ui-react",
+  "version": "1.0.0",
+  "description": "",
+  "repository": "/simple-ui-react",
+  "main": "./index.cjs.js",
+  "module": "./index.esm.js",
+  "jsnext:main": "./index.js",
+  "types": "./index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^17.0.6"
+  }
+}

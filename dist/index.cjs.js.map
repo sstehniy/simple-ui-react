@@ -1,0 +1,1 @@
+{"version":3,"file":"index.cjs.js","sources":["../lib/src/Input/index.tsx"],"sourcesContent":["type InputProps = JSX.IntrinsicElements[\"input\"] & {};\n\nconst Input: React.FC<InputProps> = () => {\n\treturn <div>Hello World</div>;\n};\n\nexport default Input;"],"names":["_jsx"],"mappings":";;;;;;MAEM,KAAK,GAAyB;IACnC,OAAOA,0DAAsB,CAAC;AAC/B;;;;"}
