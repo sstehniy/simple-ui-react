@@ -1,2 +1,5 @@
 package-lock.json
 /node_modules
+/dist/node_modules
+/example/node_modules
+/lib/node_modules

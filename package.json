@@ -1,29 +1,35 @@
 {
-  "name": "@sstehniy/simple-ui-react",
+  "name": "simple-ui-react",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
-  "jsnext:main": "dist/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
-  "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "styled-components": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sstehniy/simple-ui-react.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@types/react": "^17.0.6",
-    "@types/styled-components": "^5.1.9"
+  "bugs": {
+    "url": "https://github.com/sstehniy/simple-ui-react/issues"
   },
-  "dependencies": {
-    "styled-components": "^5.3.0"
-  }
+  "homepage": "https://github.com/sstehniy/simple-ui-react#readme"
 }

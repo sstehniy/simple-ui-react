@@ -1,1 +1,0 @@
-{"version":3,"file":"index.esm.js","sources":["../lib/src/Input/index.tsx"],"sourcesContent":["type InputProps = JSX.IntrinsicElements[\"input\"];\n\nconst Input: React.FC<InputProps> = () => {\n\treturn <div>Hello World</div>;\n};\n\nexport default Input;\n"],"names":["_jsx"],"mappings":";;MAEM,KAAK,GAAyB;IACnC,OAAOA,+CAAsB,CAAC;AAC/B;;;;"}

@@ -20,13 +20,13 @@
     "noUnusedParameters": true,
     "rootDir": "./src",
     "declaration": true,
-    "declarationDir": "../dist/",
+    "declarationDir": "../dist"
   },
   "include": [
-    "./src"
+    "src/**/*"
   ],
   "exclude": ["node_modules", "build",
-    "../dist", "../app",
+    "../dist", "../example",
     "./rollup.config.js"
   ]
 }
